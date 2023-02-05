@@ -21,7 +21,7 @@
       "API_KEY"
     ]
   },
-  "homepage": "https://humbertodutra.github.io/guide-react-gh-pages/planets-project",
+  "homepage": "https://humbertodutra.github.io/planets-project/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
