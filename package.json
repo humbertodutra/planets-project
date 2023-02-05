@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-dotenv": "^0.1.3",
     "react-scripts": "^3.4.1"
   },
   "jest": {
@@ -15,9 +16,12 @@
       "!src/index.js"
     ]
   },
+  "react-dotenv": {
+    "whitelist": ["API_KEY"]
+  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-dotenv && react-scripts start", 
+    "build": "react-dotenv && react-scripts build", 
     "test": "react-scripts test",
     "test-coverage": "react-scripts test --coverage --watchAll=false",
     "eject": "react-scripts eject",

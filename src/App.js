@@ -1,16 +1,12 @@
 import React from 'react';
 import './App.css';
 import Provider from './Context/MyProvider';
-import Table from './Components/Table';
-import SearchInputComponent from './Components/SearchInputComponent';
-import FilterOptions from './Components/FilterOptions';
+import GalaxyBackground from './main';
 
 function App() {
   return (
     <Provider>
-      <SearchInputComponent />
-      <FilterOptions />
-      <Table />
+      <GalaxyBackground />
     </Provider>
   );
 }

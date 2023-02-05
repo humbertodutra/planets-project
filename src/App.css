@@ -1,41 +1,117 @@
-.App {
+.Main {
+  background-image: url(https://wallpaperaccess.com/full/28494.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+}
+
+.tableDiv {
+  background-color: #000000bd;
+}
+
+.table {
+  width: 100%;
+  margin: 30px auto;
+  color: #ffffff;
+}
+
+.th {
+  background-color: #4d4d4d6b;
+}
+
+.tableH {
+  padding: 10px;
+  text-align: left;
+}
+
+.td {
+  padding: 10px;
+  text-align: left;
+}
+
+.tr:nth-child(even) {
+  background-color: #3f3f3f79;
+}
+
+.filter-form {
+  width: 50%;
+  margin: 0 auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media ( prefers-reduced-motion : no-preference ) {
-
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  align-items: center;
-  background-color: #282c34;
+.filter-title {
   color: white;
-  display: flex;
-  flex-direction: column;
-  font-size: calc(10px + 2vmin);
-  justify-content: center;
-  min-height: 100vh;
+  text-shadow: 1px 1px black;
+  font-size: 32px;
+  margin-bottom: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.filter-container {
+  background-color: #0000003b;
+  padding: 0px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px black;
 }
 
-@keyframes App-logo-spin {
+.filter-label {
+  color: white;
+  font-size: 18px;
+  margin-right: 10px;
+}
 
-  from {
-    transform: rotate(0deg);
-  }
+.filter-select, .filter-input {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  box-shadow: 1px 1px 5px black;
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+.filter-submit {
+  width: 200px;
+  height: 40px;
+  background-color: #000000bd;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px black;
+}
+
+.filter-submit:hover {
+  background-color: #423737bd;
+}
+
+.title-div {
+  text-align: center;
+  padding: 50px;
+}
+
+.title {
+  font-size: 36px;
+  color: #333333;
+  font-weight: bold;
+  text-shadow: 1px 1px #cccccc;
+}
+
+.description {
+  font-size: 18px;
+  color: #333333;
+  margin-top: 20px;
+  text-shadow: 1px 1px #cccccc;
 }
