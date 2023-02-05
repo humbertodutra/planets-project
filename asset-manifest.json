@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/guide-react-gh-pages/planets-project/static/css/main.0d1215b3.chunk.css",
+    "main.js": "/guide-react-gh-pages/planets-project/static/js/main.9cf9cf8b.chunk.js",
+    "main.js.map": "/guide-react-gh-pages/planets-project/static/js/main.9cf9cf8b.chunk.js.map",
+    "runtime-main.js": "/guide-react-gh-pages/planets-project/static/js/runtime-main.999a3cb0.js",
+    "runtime-main.js.map": "/guide-react-gh-pages/planets-project/static/js/runtime-main.999a3cb0.js.map",
+    "static/js/2.31506b98.chunk.js": "/guide-react-gh-pages/planets-project/static/js/2.31506b98.chunk.js",
+    "static/js/2.31506b98.chunk.js.map": "/guide-react-gh-pages/planets-project/static/js/2.31506b98.chunk.js.map",
+    "index.html": "/guide-react-gh-pages/planets-project/index.html",
+    "precache-manifest.84698f9caafc1b19e565698a4fdefbeb.js": "/guide-react-gh-pages/planets-project/precache-manifest.84698f9caafc1b19e565698a4fdefbeb.js",
+    "service-worker.js": "/guide-react-gh-pages/planets-project/service-worker.js",
+    "static/css/main.0d1215b3.chunk.css.map": "/guide-react-gh-pages/planets-project/static/css/main.0d1215b3.chunk.css.map",
+    "static/js/2.31506b98.chunk.js.LICENSE.txt": "/guide-react-gh-pages/planets-project/static/js/2.31506b98.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.999a3cb0.js",
+    "static/js/2.31506b98.chunk.js",
+    "static/css/main.0d1215b3.chunk.css",
+    "static/js/main.9cf9cf8b.chunk.js"
+  ]
+}
