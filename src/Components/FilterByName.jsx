@@ -42,7 +42,7 @@ const FilterByName = () => {
         onClick={ handleSubmit }
       >
         {' '}
-        Filter by name (Enslish)
+        Filter by name (English)
         {' '}
 
       </button>
