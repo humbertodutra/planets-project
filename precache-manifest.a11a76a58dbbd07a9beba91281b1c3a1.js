@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1bf312ca1380c4860135ae54b3e0dd14",
+    "revision": "41885abe43f7bf45e3ad43e2d06e5f89",
     "url": "/planets-project/index.html"
   },
   {
-    "revision": "99b6b7cddec27c2b9805",
-    "url": "/planets-project/static/css/main.0d1215b3.chunk.css"
+    "revision": "32a76635ff4d94cd3575",
+    "url": "/planets-project/static/css/main.551fe90a.chunk.css"
   },
   {
     "revision": "d45ef77ebc8c1e25a765",
@@ -16,11 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/planets-project/static/js/2.31506b98.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "99b6b7cddec27c2b9805",
-    "url": "/planets-project/static/js/main.9cf9cf8b.chunk.js"
+    "revision": "32a76635ff4d94cd3575",
+    "url": "/planets-project/static/js/main.db3ebebc.chunk.js"
   },
   {
     "revision": "ade291d366d2a4965813",
     "url": "/planets-project/static/js/runtime-main.e5c5454c.js"
+  },
+  {
+    "revision": "3a17b0d228720a74e1a00acc99811a83",
+    "url": "/planets-project/static/media/28494.3a17b0d2.webp"
   }
 ]);
